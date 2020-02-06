@@ -43,6 +43,7 @@ spec:
       containers:
       - name: controller
         image: quay.io/wksctl/controller:0.8.1
+        #image: 
         command:
         - /bin/controller
         - --verbose
